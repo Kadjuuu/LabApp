@@ -1,4 +1,4 @@
-class Animal {
+ class Animal {
     name: string;
     constructor(theName: string) {
       this.name = theName;
@@ -7,3 +7,4 @@ class Animal {
       console.log(`${this.name} moved ${distanceInMeters}m.`);
     }
   }
+  export {Animal};

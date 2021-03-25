@@ -1,5 +1,6 @@
-import {Animal } from "./src/animal";
-
+import {Animal} from "../src/animal";
+import {Horse} from "../src/horse";
+import {Snake} from "../src/snake";
 
 
 

@@ -1,3 +1,6 @@
+import {Animal} from "../src/animal";
+import { type } from "node:os";
+
 class Horse extends Animal {
     constructor(name: string) {
       super(name);
@@ -7,5 +10,5 @@ class Horse extends Animal {
       super.move(distanceInMeters);
     }
   }
-  
+  export  {Horse};
  

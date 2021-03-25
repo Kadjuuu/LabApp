@@ -1,3 +1,4 @@
+import {Animal} from "../src/animal";
 class Snake extends Animal {
     constructor(name: string) {
       super(name);
@@ -7,3 +8,4 @@ class Snake extends Animal {
       super.move(distanceInMeters);
     }
   }
+  export  {Snake};
